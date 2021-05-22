@@ -1,6 +1,7 @@
 import { BiSearch, BiCaretDown, BiCheck } from "react-icons/bi";
 import { useState } from "react";
 
+// dropdown component
 const DropDown = ({toggle, orderBy, onOrderByChange, sortBy, onSortByChange}) => {
     if(!toggle){
       return null;
